@@ -28,7 +28,7 @@ promotions → unimportant). Achieves **~0.90 recall** on the important class.
 
 | File | Description |
 |------|-------------|
-| `Vigilante_Email_Classifier.ipynb` | The notebook to run |
+| `VigilanteStage0` | The notebook to run |
 | `models/vigilante_model2.pkl` | Trained model |
 | `models/vigilante_vectorizer2.pkl` | TF-IDF vectorizer |
 | `models/vigilante_scaler2.pkl` | Feature scaler |
@@ -52,14 +52,13 @@ Because this app uses Gmail OAuth and is kept in Google's **testing mode**
 ([your email / contact]).** I'll add your email as a test user and send you
 `credentials.json`, and you'll be able to run it in a couple of minutes.
 
-*(This keeps OAuth credentials out of the public repo, which is intentional —
-sharing them publicly would be a security risk.)*
+
 
 ---
 
 ## How to run (once you have credentials.json)
 
-1. Open `Vigilante_Email_Classifier.ipynb` in
+   1. Open `VigilanteStage0` in
    [Google Colab](https://colab.research.google.com).
 2. Run the cells in order (**Runtime → Run all**).
 3. When prompted, **upload the 4 model files** from the `models/` folder
