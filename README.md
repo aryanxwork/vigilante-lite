@@ -4,7 +4,7 @@ Connects to a Gmail inbox (read-only) and classifies each email as
 **IMPORTANT** or **UNIMPORTANT** using a machine-learning model trained on
 6,000 real emails.
 
-**Author:** [Your Name] · [Roll No / Course]
+**Author:** Aryan Sharma · TIET - Computer Engg - 1024030679
 
 ---
 
