@@ -1,0 +1,24 @@
+{
+  "engineered_feature_names": [
+    "is_auto_sender",
+    "has_unsubscribe",
+    "is_bulk",
+    "is_reply",
+    "subject_length"
+  ],
+  "marketing_sender_hints": [
+    "updates@",
+    "no-reply@",
+    "noreply@",
+    "mailer",
+    "digest",
+    "newsletter",
+    "promotions@",
+    "marketing@",
+    "mktg@",
+    "emails."
+  ],
+  "threshold": 0.5,
+  "trained_on": "6000 emails (3000 personal + 3000 college), keyword-bucket labels",
+  "important_recall": 0.9
+}
